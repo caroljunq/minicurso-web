@@ -1,0 +1,56 @@
+
+.muda-cor{
+    width: 250px;
+    height: 250px;
+    background: red;
+}
+
+#tenho-nome{
+    width: 250px;
+    height: 250px;
+    background: yellow;
+}
+
+/*pega todos os filhos ou containers que estão dentro da classe "lista"*/
+.lista > li{
+    color: red;
+}
+
+li:last-child{
+    background: yellow;
+}
+
+/*Media queries*/
+@media (min-width: 900px){
+    .muda-cor{
+        background: blue;
+    }
+
+    #tenho-nome{
+        width:600px;
+        height: 600px;
+    }
+
+    li:nth-child(2){
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 899px) {
+    .muda-cor{
+        background: green;
+    }
+
+    #tenho-nome{
+        width:400px;
+        height: 400px;
+    }
+
+    li:nth-child(2){
+        font-size: 24px;
+    }
+
+    li:last-child{
+        background: green;
+    }
+}
