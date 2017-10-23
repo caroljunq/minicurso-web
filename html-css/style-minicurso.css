@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    font-style: italic;
+    font-family: Courier New;
+}
+.conhecimentos {
+    color: green;
+}
+
+.formacao {
+    color: yellow;
+}
+
+.idiomas {
+    color: blue;
+}
+
+#foto {
+    width: 350px;
+    height: 200px;
+}
